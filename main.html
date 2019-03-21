@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<link rel="stylesheet" href="css/master.css">
+
+<head>
+  <meta charset="utf-8">
+  <title>Color Guessing</title>
+</head>
+<body>
+
+  <div class="selected" id="head">
+    <h1 id="answerValue"></h1>
+    This is a color guessing Game.<br>
+    <span id = "info">Press the color that matches the given RGB values.</span>
+  </div>
+
+  <div class="container" id = "button-bar">
+    <a class="btn" role="button" id ="newGame">New Colors</a>
+      <span id="space"></span>
+      <a id="easyMode" class = "btn selected"> Easy</a>
+      <a id="hardMode" class = "btn"> Hard</a>
+      <span id="space1"></span>
+      <a id="rgb" class = " btn selected"> Rgb</a>
+      <a id="hex" class = "btn"> Hex</a>
+  </div>
+
+  <div class="container" id = "container">
+      <div class="square" id="color1">          </div>
+      <div class="square" id="color2">          </div>
+      <div class="square" id="color3">          </div>
+      <div class="square" id="color4">          </div>
+      <div class="square" id="color5">          </div>
+      <div class="square" id="color6">          </div>
+        </div>
+
+
+
+
+</body>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script type="text/javascript" src="guess-color.js"></script>
+
+</html>
